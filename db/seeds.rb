@@ -11,7 +11,7 @@ end
     Audition.create(actor: Faker::Name.name, 
     location: Faker::Address.city, 
     phone: Faker::PhoneNumber.cell_phone, 
-    hired: Faker::Boolean.boolean, 
+    hired: false, 
     role_id: Role.all.sample.id)
 end
 
